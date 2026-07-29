@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="188" height="40" viewBox="0 0 188 40">
+  <polygon points="4,0 184,0 188,4 188,36 184,40 4,40 0,36 0,4" fill="#FA5C5C"/>
+  <polygon points="7,3 181,3 185,7 185,33 181,37 7,37 3,33 3,7" fill="#8a1f1f"/>
+  <text x="94" y="25" text-anchor="middle" font-family="'Courier New', ui-monospace, monospace" font-weight="bold" font-size="12" letter-spacing="1" fill="#ffffff">PLAY MY GAMES</text>
+</svg>

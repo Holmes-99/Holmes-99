@@ -9,6 +9,14 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1F4E79,100:2E86AB&height=4&section=header"/>
 
+<!-- SECTION: arcade-menu -->
+<a href="#projects"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/buttons/nav-projects.svg" alt="Projects" height="40"/></a>&nbsp;
+<a href="#skills"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/buttons/nav-skills.svg" alt="Skills" height="40"/></a>&nbsp;
+<a href="#stats"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/buttons/nav-stats.svg" alt="Stats" height="40"/></a>&nbsp;
+<a href="#contact"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/buttons/nav-contact.svg" alt="Contact" height="40"/></a>&nbsp;
+<a href="https://holmes-99.itch.io" target="_blank"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/buttons/nav-play.svg" alt="Play my games on itch.io" height="40"/></a>
+<!-- /SECTION: arcade-menu -->
+
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB%20About%20Me&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
 
 </div>
@@ -18,6 +26,7 @@ I build 2D games in **Unity & C#** and low level systems in **C, Java, and Pytho
 Currently exploring AI search and classification algorithms, Android development, and embedded systems with Arduino.
 Aspiring to work at a game studio while staying sharp on backend and systems fundamentals.
 
+<a name="skills"></a>
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%A7%A0%20Skills&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
@@ -53,6 +62,23 @@ Aspiring to work at a game studio while staying sharp on backend and systems fun
 
 </div>
 
+<!-- SECTION: contact -->
+<a name="contact"></a>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%93%AC%20Contact&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
+
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1F4E79?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shatha-abualrub-632a05331)
+[![Gmail](https://img.shields.io/badge/Gmail-2E86AB?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abualrubshatha1@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-1F4E79?style=for-the-badge&logo=firefox&logoColor=white)](https://shatha-abualrob.netlify.app)
+[![itch.io](https://img.shields.io/badge/itch.io-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white)](https://holmes-99.itch.io)
+
+</div>
+<!-- /SECTION: contact -->
+
+<a name="projects"></a>
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%9A%80%20Featured%20Projects&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
@@ -155,6 +181,7 @@ Decision Tree and Naive Bayes on PlayTennis, plus a Decision Tree on the Breast 
 
 </details>
 
+<a name="stats"></a>
 <details>
 <summary><b>📊 GitHub Stats</b></summary>
 <br>
