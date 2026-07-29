@@ -197,6 +197,20 @@ Decision Tree and Naive Bayes on PlayTennis, plus a Decision Tree on the Breast 
 </div>
 <!-- /SECTION: rocket-graph -->
 
+<!-- SECTION: 3d-contrib -->
+<div align="center">
+
+<details>
+<summary><b>🏙️ 3D Contribution City</b></summary>
+<br>
+
+<img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/3d-contrib.svg" width="100%" alt="3D isometric view of contribution graph"/>
+
+</details>
+
+</div>
+<!-- /SECTION: 3d-contrib -->
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E86AB,100:1F4E79&height=100&section=footer"/>

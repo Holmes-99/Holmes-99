@@ -1,0 +1,47 @@
+name: Generate 3D Contribution City
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Shared with snake.yml / rocket.yml: these all publish to the "output"
+# branch, so serialize their pushes to avoid a race.
+concurrency:
+  group: output-branch-deploy
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate 3D contribution SVGs
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Pick the dark retro-arcade variant
+        run: |
+          mkdir -p dist
+          # night-rainbow: neon-on-black, closest built-in match to the
+          # portfolio's retro arcade / dungeon-crawler look. See
+          # https://github.com/yoshi389111/github-profile-3d-contrib for the
+          # other 9 available palettes if you'd rather swap it.
+          cp profile-3d-contrib/profile-night-rainbow.svg dist/3d-contrib.svg
+
+      - name: Push generated file to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: dist
+          keep_files: true
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_message: "chore: update 3D contribution city"
