@@ -224,6 +224,19 @@ Decision Tree and Naive Bayes on PlayTennis, plus a Decision Tree on the Breast 
 
 </details>
 
+<!-- SECTION: devlog -->
+<details>
+<summary><b>📰 Recent Activity</b></summary>
+<br>
+
+<!-- itch.io has no devlog RSS feed for this account yet, so this lists
+     recently updated repos via GitHub's own activity feed instead. See
+     .github/workflows/devlog.yml. -->
+<!-- DEVLOG:START -->
+<!-- DEVLOG:END -->
+
+</details>
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%90%8D%20Contribution%20Snake&fontSize=24&fontColor=ffffff&fontAlignY=62"/>

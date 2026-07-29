@@ -1,0 +1,29 @@
+name: Update Devlog Feed
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-feed:
+    name: Update README with latest activity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # itch.io does not expose a devlog RSS/Atom feed for this account (every
+      # /devlog.rss, /feed, /feed.xml guess 404s, and Frog Hop: Fly Hunt has
+      # no devlog posts yet). Falling back to GitHub's own public activity
+      # Atom feed (https://github.com/<user>.atom), which is a real,
+      # always-available feed of recently pushed/updated repos. Swap
+      # feed_list back to an itch.io devlog URL the day one exists.
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://github.com/${{ github.repository_owner }}.atom"
+          max_post_count: 5
+          comment_tag_name: "DEVLOG"
+          commit_message: "chore: update recent activity feed"
