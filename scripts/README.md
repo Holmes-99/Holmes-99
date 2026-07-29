@@ -1,5 +1,9 @@
 # scripts/
 
+Looking for what still needs to be done (art to draw, GIFs to record,
+settings to check)? That's [TODO.md](../TODO.md), not this file. This file
+is only about running the generators locally.
+
 Every generator here can be run locally against the real GitHub API, no
 need to wait for a scheduled Action to see your changes. All of them need
 Node 18+ (global `fetch`) and a token:

@@ -1,7 +1,7 @@
 <!-- SECTION: header -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F4E79,100:2E86AB&height=200&section=header&text=Shatha%20Abualrob&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=شذى%20أبو%20الرب&descAlignY=60&descSize=20&descColor=ffffff"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F4E79,100:2E86AB&height=200&section=header&text=Shatha%20Abualrob&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%D8%B4%D8%B0%D9%89%20%D8%A3%D8%A8%D9%88%20%D8%A7%D9%84%D8%B1%D8%A8&descAlignY=60&descSize=20&descColor=ffffff"/>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=2E86AB&center=true&vCenter=true&width=650&lines=Computer+Engineering+Student+%F0%9F%8E%93;Unity+Game+Developer+%F0%9F%8E%AE;Backend+%26+Systems+Developer+%F0%9F%92%BB;AI+%2F+Machine+Learning+Enthusiast+%F0%9F%A4%96;Based+in+Palestine+%F0%9F%87%B5%F0%9F%87%B8)](https://git.io/typing-svg)
 
@@ -26,23 +26,25 @@
 <!-- SECTION: about -->
 Computer Engineering student at **Birzeit University**, Palestine 🇵🇸, graduating in 2027.
 I build 2D games in **Unity & C#** and low level systems in **C, Java, and Python**, from raw socket servers to a pipelined RISC processor in Verilog.
-Currently exploring AI search and classification algorithms, Android development, and embedded systems with Arduino.
+Currently learning **Blender 3D**, **Linux and shell scripting**, and **Luau / Roblox Studio**, alongside AI search and classification algorithms.
 Aspiring to work at a game studio while staying sharp on backend and systems fundamentals.
 <!-- /SECTION: about -->
 
-<!-- SECTION: game-showcase -->
+<!-- SECTION: featured-builds -->
 <a name="projects"></a>
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%8E%AE%20Game%20Showcase&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%8E%AE%20Featured%20Builds&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
+
+<sub>Two shipped games plus the AI project I'm proudest of. Preview GIFs are TODO, see <a href="scripts/README.md">scripts/README.md</a> and TODO.md for the exact filenames that auto-replace these stills.</sub>
 
 </div>
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center">
+<td width="33%" valign="top" align="center">
 
-<a href="https://holmes-99.itch.io/frog-hop-fly-hunt"><img src="https://raw.githubusercontent.com/Holmes-99/FrogHopFlyHunt/main/Screenshots/GamePlay.png" width="100%" alt="Frog Hop: Fly Hunt gameplay"/></a>
+<a href="https://holmes-99.itch.io/frog-hop-fly-hunt"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/previews/frog-hop.gif" width="100%" alt="Frog Hop: Fly Hunt gameplay"/></a>
 <br>
 <b><a href="https://holmes-99.itch.io/frog-hop-fly-hunt">Frog Hop: Fly Hunt</a></b>
 <br>
@@ -51,9 +53,9 @@ A 2D swamp platformer, hop, dodge water, and hunt flies. Playable in-browser on 
 <img src="https://skillicons.dev/icons?i=unity" height="28"/> <img src="https://skillicons.dev/icons?i=cs" height="28"/>
 
 </td>
-<td width="50%" valign="top" align="center">
+<td width="33%" valign="top" align="center">
 
-<a href="https://github.com/Holmes-99/flappy-bird-unity"><img src="https://raw.githubusercontent.com/Holmes-99/flappy-bird-unity/main/Screenshots/GamePlay.png" width="100%" alt="Flappy Bird clone gameplay"/></a>
+<a href="https://github.com/Holmes-99/flappy-bird-unity"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/previews/flappy-bird.gif" width="100%" alt="Flappy Bird clone gameplay"/></a>
 <br>
 <b><a href="https://github.com/Holmes-99/flappy-bird-unity">Flappy Bird Clone</a></b>
 <br>
@@ -62,18 +64,20 @@ Pixel art duck, procedural pipes, sound effects. Source on GitHub (not yet publi
 <img src="https://skillicons.dev/icons?i=unity" height="28"/> <img src="https://skillicons.dev/icons?i=cs" height="28"/>
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center" colspan="2">
+<td width="33%" valign="top" align="center">
 
-<b>Tunnel Haunt</b> (game jam entry)
+<a href="https://github.com/Holmes-99/hospital-location-optimizer"><img src="https://raw.githubusercontent.com/Holmes-99/hospital-location-optimizer/main/images/solutions_comparison.png" width="100%" alt="Hospital location optimizer solution comparison plot"/></a>
 <br>
-<sub>No public repo or storefront page found for this one yet, so it isn't linked here to avoid a dead link. Ping me if you want it added once it's published.</sub>
+<b><a href="https://github.com/Holmes-99/hospital-location-optimizer">Hospital Location Optimizer</a></b>
+<br>
+Hill Climbing and Simulated Annealing search for optimal public health facility placement.
+<br><br>
+<img src="https://skillicons.dev/icons?i=python" height="28"/> <img src="https://img.shields.io/badge/AI-1F4E79?style=for-the-badge" height="28"/>
 
 </td>
 </tr>
 </table>
-<!-- /SECTION: game-showcase -->
+<!-- /SECTION: featured-builds -->
 
 <!-- SECTION: skills -->
 <a name="skills"></a>
@@ -134,7 +138,7 @@ Pixel art duck, procedural pipes, sound effects. Source on GitHub (not yet publi
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%9A%80%20Featured%20Projects&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
 
-<sub>Game projects have their own <a href="#projects">Game Showcase</a> above; these are the systems, networking, and AI projects.</sub>
+<sub>Games and the AI hospital project have their own <a href="#projects">Featured Builds</a> above; these are the rest of the systems, networking, and mobile projects.</sub>
 
 </div>
 
@@ -182,20 +186,20 @@ Minimum Spanning Tree over Palestinian cities using Kruskal's and Prim's algorit
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://skillicons.dev/icons?i=python" height="22"/> **[Hospital Location Optimizer](https://github.com/Holmes-99/hospital-location-optimizer)**
-<br>
-Hill Climbing and Simulated Annealing search for optimal hospital placement, ENCS3340 AI project.
-<br><br>
-<img src="https://img.shields.io/badge/AI-1F4E79?style=for-the-badge"/> <img src="https://img.shields.io/github/languages/top/Holmes-99/hospital-location-optimizer?style=for-the-badge&color=2E86AB&labelColor=1F4E79"/>
-
-</td>
-<td width="50%" valign="top">
-
 <img src="https://skillicons.dev/icons?i=python" height="22"/> **[ML Classification: PlayTennis + Cancer](https://github.com/Holmes-99/ml-classification-playtennis-cancer)**
 <br>
 Decision Tree and Naive Bayes on PlayTennis, plus a Decision Tree on the Breast Cancer Wisconsin dataset.
 <br><br>
 <img src="https://img.shields.io/badge/Machine%20Learning-1F4E79?style=for-the-badge"/> <img src="https://img.shields.io/github/languages/top/Holmes-99/ml-classification-playtennis-cancer?style=for-the-badge&color=2E86AB&labelColor=1F4E79"/>
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://skillicons.dev/icons?i=java" height="22"/> **[Travel Planner Android App](https://github.com/Holmes-99/travel-planner-android-app)**
+<br>
+Full-stack travel planner Android app, Java and Spring Boot backend.
+<br><br>
+<img src="https://img.shields.io/badge/Android-1F4E79?style=for-the-badge"/> <img src="https://img.shields.io/github/languages/top/Holmes-99/travel-planner-android-app?style=for-the-badge&color=2E86AB&labelColor=1F4E79"/>
 
 </td>
 </tr>
@@ -208,6 +212,9 @@ Decision Tree and Naive Bayes on PlayTennis, plus a Decision Tree on the Breast 
 <br>
 
 - 🎮 **Unity 6 game development**, physics, animation, and gameplay systems for 2D platformers
+- 🧊 **Blender 3D**, modeling basics for future game asset pipelines
+- 🐧 **Linux and shell scripting**, command line workflows and automation
+- 🧩 **Luau / Roblox Studio**, scripting fundamentals for Roblox experiences
 - 🤖 **Artificial Intelligence**, search (hill climbing, simulated annealing), decision trees, Naive Bayes
 - 📱 **Android development**, Java + Spring Boot backed mobile apps
 - 🔌 **Embedded systems & Arduino**, sensors, microcontroller programming
