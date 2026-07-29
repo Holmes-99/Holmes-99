@@ -1,0 +1,35 @@
+name: "📝 Guestbook Entry"
+description: "Sign the guestbook on my profile README!"
+title: "[Guestbook] "
+labels: ["guestbook"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for stopping by! Fill this in and submit, a bot will pick it up
+        and add you to the guestbook table on the profile README within a
+        few minutes. Keep it friendly, it's public.
+  - type: input
+    id: name
+    attributes:
+      label: Your name
+      description: What should show up in the guestbook?
+      placeholder: e.g. Ada Lovelace
+    validations:
+      required: true
+  - type: input
+    id: message
+    attributes:
+      label: Message
+      description: Max 100 characters, longer messages get truncated.
+      placeholder: Loved the pixel art!
+    validations:
+      required: true
+  - type: input
+    id: handle
+    attributes:
+      label: GitHub handle (optional)
+      description: Without the @, only used if you want it shown differently than your GitHub login.
+      placeholder: octocat
+    validations:
+      required: false

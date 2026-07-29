@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="44" viewBox="0 0 220 44">
+  <polygon points="4,0 216,0 220,4 220,40 216,44 4,44 0,40 0,4" fill="#39d353"/>
+  <polygon points="7,3 213,3 217,7 217,37 213,41 7,41 3,37 3,7" fill="#1F4E79"/>
+  <text x="110" y="27" text-anchor="middle" font-family="'Courier New', ui-monospace, monospace" font-weight="bold" font-size="13" letter-spacing="1" fill="#ffffff">✎ SIGN THE GUESTBOOK</text>
+</svg>

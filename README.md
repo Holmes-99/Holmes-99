@@ -282,6 +282,26 @@ Decision Tree and Naive Bayes on PlayTennis, plus a Decision Tree on the Breast 
 </div>
 <!-- /SECTION: 3d-contrib -->
 
+<!-- SECTION: guestbook -->
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%93%94%20Guestbook&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
+
+<a href="https://github.com/Holmes-99/Holmes-99/issues/new?template=guestbook.yml"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/buttons/sign-guestbook.svg" alt="Sign the guestbook" height="44"/></a>
+
+<br><br>
+
+<div align="left">
+
+<!-- GUESTBOOK:START -->
+_No signatures yet, be the first!_
+<!-- GUESTBOOK:END -->
+
+</div>
+
+</div>
+<!-- /SECTION: guestbook -->
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E86AB,100:1F4E79&height=100&section=footer"/>
