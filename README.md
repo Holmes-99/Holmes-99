@@ -181,6 +181,24 @@ Decision Tree and Naive Bayes on PlayTennis, plus a Decision Tree on the Breast 
   <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/github-contribution-grid-snake.svg" width="100%"/>
 </picture>
 
+</div>
+
+<!-- SECTION: rocket-graph -->
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%9A%80%20Rocket%20Contribution%20Graph&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/rocket-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/rocket-light.svg" />
+  <img alt="pixel rocket flying across and destroying the contribution graph" src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/rocket-dark.svg" width="100%"/>
+</picture>
+
+</div>
+<!-- /SECTION: rocket-graph -->
+
+<div align="center">
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E86AB,100:1F4E79&height=100&section=footer"/>
 
 </div>

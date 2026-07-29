@@ -1,12 +1,15 @@
-name: Generate Snake Animation
+name: Generate Rocket Contribution Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0,12 * * *"
   push:
     branches:
       - main
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 # Several workflows (snake, rocket, 3d-contrib, terminal-card, rpg-sheet) all
 # publish generated SVGs to the shared "output" branch. Serialize them so a
@@ -17,18 +20,23 @@ concurrency:
 
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake animation
-        uses: Platane/snk@v3
-        id: snake
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          node-version: 20
+
+      - name: Generate rocket SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p dist
+          node scripts/rocket-graph.mjs "${{ github.repository_owner }}" dark  > dist/rocket-dark.svg
+          node scripts/rocket-graph.mjs "${{ github.repository_owner }}" light > dist/rocket-light.svg
 
       - name: Push generated files to output branch
         uses: peaceiris/actions-gh-pages@v4
@@ -39,4 +47,4 @@ jobs:
           keep_files: true
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
-          commit_message: "chore: update snake animation"
+          commit_message: "chore: update rocket contribution graph"
