@@ -9,6 +9,14 @@ permissions:
   contents: write
   issues: read
 
+# A new guestbook issue fires both "opened" and "labeled" (the template
+# auto-applies the guestbook label), so two runs can start seconds apart and
+# race to push README.md. Serialize them instead of letting the second
+# push get rejected.
+concurrency:
+  group: guestbook-readme
+  cancel-in-progress: false
+
 jobs:
   update-guestbook:
     # Only bother running the whole thing for guestbook-labeled issues (or a
