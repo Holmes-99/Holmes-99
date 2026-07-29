@@ -1,3 +1,4 @@
+<!-- SECTION: header -->
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F4E79,100:2E86AB&height=200&section=header&text=Shatha%20Abualrob&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=شذى%20أبو%20الرب&descAlignY=60&descSize=20&descColor=ffffff"/>
@@ -20,11 +21,14 @@
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB%20About%20Me&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
 
 </div>
+<!-- /SECTION: header -->
 
+<!-- SECTION: about -->
 Computer Engineering student at **Birzeit University**, Palestine 🇵🇸, graduating in 2027.
 I build 2D games in **Unity & C#** and low level systems in **C, Java, and Python**, from raw socket servers to a pipelined RISC processor in Verilog.
 Currently exploring AI search and classification algorithms, Android development, and embedded systems with Arduino.
 Aspiring to work at a game studio while staying sharp on backend and systems fundamentals.
+<!-- /SECTION: about -->
 
 <!-- SECTION: game-showcase -->
 <a name="projects"></a>
@@ -71,6 +75,7 @@ Pixel art duck, procedural pipes, sound effects. Source on GitHub (not yet publi
 </table>
 <!-- /SECTION: game-showcase -->
 
+<!-- SECTION: skills -->
 <a name="skills"></a>
 <div align="center">
 
@@ -106,6 +111,7 @@ Pixel art duck, procedural pipes, sound effects. Source on GitHub (not yet publi
 <a href="https://spring.io"><img src="https://skillicons.dev/icons?i=spring" height="42"/></a>
 
 </div>
+<!-- /SECTION: skills -->
 
 <!-- SECTION: contact -->
 <a name="contact"></a>
@@ -123,6 +129,7 @@ Pixel art duck, procedural pipes, sound effects. Source on GitHub (not yet publi
 </div>
 <!-- /SECTION: contact -->
 
+<!-- SECTION: featured-projects -->
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%9A%80%20Featured%20Projects&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
@@ -193,7 +200,9 @@ Decision Tree and Naive Bayes on PlayTennis, plus a Decision Tree on the Breast 
 </td>
 </tr>
 </table>
+<!-- /SECTION: featured-projects -->
 
+<!-- SECTION: coursework -->
 <details>
 <summary><b>🎓 Coursework & What I'm Learning</b></summary>
 <br>
@@ -206,7 +215,9 @@ Decision Tree and Naive Bayes on PlayTennis, plus a Decision Tree on the Breast 
 - ⚙️ **Computer architecture**, RISC processor design in Verilog and Logisim
 
 </details>
+<!-- /SECTION: coursework -->
 
+<!-- SECTION: github-stats -->
 <a name="stats"></a>
 <details>
 <summary><b>📊 GitHub Stats</b></summary>
@@ -223,6 +234,7 @@ Decision Tree and Naive Bayes on PlayTennis, plus a Decision Tree on the Breast 
 </div>
 
 </details>
+<!-- /SECTION: github-stats -->
 
 <!-- SECTION: terminal-card -->
 <details>
@@ -278,6 +290,7 @@ Decision Tree and Naive Bayes on PlayTennis, plus a Decision Tree on the Breast 
 
 </details>
 
+<!-- SECTION: snake -->
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%90%8D%20Contribution%20Snake&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
@@ -289,6 +302,7 @@ Decision Tree and Naive Bayes on PlayTennis, plus a Decision Tree on the Breast 
 </picture>
 
 </div>
+<!-- /SECTION: snake -->
 
 <!-- SECTION: rocket-graph -->
 <div align="center">
@@ -338,8 +352,10 @@ _No signatures yet, be the first!_
 </div>
 <!-- /SECTION: guestbook -->
 
+<!-- SECTION: footer -->
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E86AB,100:1F4E79&height=100&section=footer"/>
 
 </div>
+<!-- /SECTION: footer -->
