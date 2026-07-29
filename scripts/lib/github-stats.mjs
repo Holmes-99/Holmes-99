@@ -78,6 +78,24 @@ async function fetchTotalCommits(username, createdAt, token) {
   return total;
 }
 
+async function fetchCommitsThisYear(username, token) {
+  const now = new Date();
+  const from = `${now.getUTCFullYear()}-01-01T00:00:00Z`;
+  const to = now.toISOString();
+  const data = await graphql(
+    `query ($login: String!, $from: DateTime!, $to: DateTime!) {
+      user(login: $login) {
+        contributionsCollection(from: $from, to: $to) {
+          totalCommitContributions
+        }
+      }
+    }`,
+    { login: username, from, to },
+    token
+  );
+  return data.user.contributionsCollection.totalCommitContributions;
+}
+
 async function fetchCurrentStreak(username, token) {
   const data = await graphql(
     `query ($login: String!) {
@@ -166,8 +184,9 @@ export async function fetchStats(username, token) {
     token
   );
 
-  const [totalCommits, currentStreak, linesOfCode] = await Promise.all([
+  const [totalCommits, commitsThisYear, currentStreak, linesOfCode] = await Promise.all([
     fetchTotalCommits(username, profile.created_at, token),
+    fetchCommitsThisYear(username, token),
     fetchCurrentStreak(username, token),
     fetchLinesOfCode(nonForkRepos, token),
   ]);
@@ -187,6 +206,7 @@ export async function fetchStats(username, token) {
     followers: profile.followers,
     createdAt: profile.created_at,
     totalCommits,
+    commitsThisYear,
     stars,
     mergedPrCount: mergedPrs.total_count,
     currentStreak,

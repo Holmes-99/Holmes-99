@@ -1,0 +1,47 @@
+name: Generate RPG Character Sheet
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Shared with snake.yml / rocket.yml / 3d-contrib.yml / terminal-card.yml:
+# these all publish to the "output" branch, serialize their pushes.
+concurrency:
+  group: output-branch-deploy
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate RPG sheet SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p dist
+          node scripts/rpg-sheet.mjs "${{ github.repository_owner }}" dark  > dist/rpg-sheet-dark.svg
+          node scripts/rpg-sheet.mjs "${{ github.repository_owner }}" light > dist/rpg-sheet-light.svg
+
+      - name: Push generated files to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: dist
+          keep_files: true
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_message: "chore: update RPG character sheet"
