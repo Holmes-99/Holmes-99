@@ -224,6 +224,42 @@ Decision Tree and Naive Bayes on PlayTennis, plus a Decision Tree on the Breast 
 
 </details>
 
+<!-- SECTION: terminal-card -->
+<details>
+<summary><b>🖥️ Terminal Info Card</b></summary>
+<br>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/terminal-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/terminal-light.svg" />
+  <img alt="neofetch style terminal info card" src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/terminal-dark.svg" width="100%"/>
+</picture>
+
+</div>
+
+</details>
+<!-- /SECTION: terminal-card -->
+
+<!-- SECTION: rpg-sheet -->
+<details>
+<summary><b>🗡️ RPG Character Sheet</b></summary>
+<br>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/rpg-sheet-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/rpg-sheet-light.svg" />
+  <img alt="RPG character sheet built from real GitHub stats" src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/rpg-sheet-dark.svg" width="100%"/>
+</picture>
+
+</div>
+
+</details>
+<!-- /SECTION: rpg-sheet -->
+
 <!-- SECTION: devlog -->
 <details>
 <summary><b>📰 Recent Activity</b></summary>

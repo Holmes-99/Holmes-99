@@ -1,0 +1,47 @@
+name: Generate Terminal Info Card
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Shared with snake.yml / rocket.yml / 3d-contrib.yml / rpg-sheet.yml: these
+# all publish to the "output" branch, serialize their pushes.
+concurrency:
+  group: output-branch-deploy
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate terminal card SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p dist
+          node scripts/terminal-card.mjs "${{ github.repository_owner }}" dark  > dist/terminal-dark.svg
+          node scripts/terminal-card.mjs "${{ github.repository_owner }}" light > dist/terminal-light.svg
+
+      - name: Push generated files to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: dist
+          keep_files: true
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_message: "chore: update terminal info card"
