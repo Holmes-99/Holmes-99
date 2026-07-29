@@ -36,8 +36,8 @@ if (!username || !token) {
 
 // Games confirmed to actually be shipped/playable somewhere public as of
 // writing: Frog Hop: Fly Hunt (itch.io + Unity Play). Bump this by hand
-// when Flappy Bird / Tunnel Haunt get a public build, there's no API for
-// "did I ship this."
+// when another game gets a public build, there's no API for "did I ship
+// this."
 const SHIPPED_GAMES = 1;
 
 const COMMITS_PER_LEVEL = 25;
