@@ -26,6 +26,51 @@ I build 2D games in **Unity & C#** and low level systems in **C, Java, and Pytho
 Currently exploring AI search and classification algorithms, Android development, and embedded systems with Arduino.
 Aspiring to work at a game studio while staying sharp on backend and systems fundamentals.
 
+<!-- SECTION: game-showcase -->
+<a name="projects"></a>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%8E%AE%20Game%20Showcase&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+
+<a href="https://holmes-99.itch.io/frog-hop-fly-hunt"><img src="https://raw.githubusercontent.com/Holmes-99/FrogHopFlyHunt/main/Screenshots/GamePlay.png" width="100%" alt="Frog Hop: Fly Hunt gameplay"/></a>
+<br>
+<b><a href="https://holmes-99.itch.io/frog-hop-fly-hunt">Frog Hop: Fly Hunt</a></b>
+<br>
+A 2D swamp platformer, hop, dodge water, and hunt flies. Playable in-browser on <a href="https://holmes-99.itch.io/frog-hop-fly-hunt">itch.io</a> or <a href="https://play.unity.com/en/games/610a6dd7-6f69-4673-bbf6-d52e4a2927a1/webglbuild">Unity Play</a>.
+<br><br>
+<img src="https://skillicons.dev/icons?i=unity" height="28"/> <img src="https://skillicons.dev/icons?i=cs" height="28"/>
+
+</td>
+<td width="50%" valign="top" align="center">
+
+<a href="https://github.com/Holmes-99/flappy-bird-unity"><img src="https://raw.githubusercontent.com/Holmes-99/flappy-bird-unity/main/Screenshots/GamePlay.png" width="100%" alt="Flappy Bird clone gameplay"/></a>
+<br>
+<b><a href="https://github.com/Holmes-99/flappy-bird-unity">Flappy Bird Clone</a></b>
+<br>
+Pixel art duck, procedural pipes, sound effects. Source on GitHub (not yet published to itch.io).
+<br><br>
+<img src="https://skillicons.dev/icons?i=unity" height="28"/> <img src="https://skillicons.dev/icons?i=cs" height="28"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center" colspan="2">
+
+<b>Tunnel Haunt</b> (game jam entry)
+<br>
+<sub>No public repo or storefront page found for this one yet, so it isn't linked here to avoid a dead link. Ping me if you want it added once it's published.</sub>
+
+</td>
+</tr>
+</table>
+<!-- /SECTION: game-showcase -->
+
 <a name="skills"></a>
 <div align="center">
 
@@ -78,34 +123,15 @@ Aspiring to work at a game studio while staying sharp on backend and systems fun
 </div>
 <!-- /SECTION: contact -->
 
-<a name="projects"></a>
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%9A%80%20Featured%20Projects&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
 
+<sub>Game projects have their own <a href="#projects">Game Showcase</a> above; these are the systems, networking, and AI projects.</sub>
+
 </div>
 
 <table>
-<tr>
-<td width="50%" valign="top">
-
-<img src="https://skillicons.dev/icons?i=unity" height="22"/> **[Frog Hop: Fly Hunt](https://github.com/Holmes-99/FrogHopFlyHunt)**
-<br>
-A 2D swamp platformer built in Unity 6, hop, dodge water, and hunt flies.
-<br><br>
-<img src="https://img.shields.io/badge/Game%20Dev-1F4E79?style=for-the-badge"/> <img src="https://img.shields.io/github/languages/top/Holmes-99/FrogHopFlyHunt?style=for-the-badge&color=2E86AB&labelColor=1F4E79"/>
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://skillicons.dev/icons?i=unity" height="22"/> **[Flappy Bird Clone](https://github.com/Holmes-99/flappy-bird-unity)**
-<br>
-2D Flappy Bird clone in Unity & C#, pixel art duck, procedural pipes, sound effects.
-<br><br>
-<img src="https://img.shields.io/badge/Game%20Dev-1F4E79?style=for-the-badge"/> <img src="https://img.shields.io/github/languages/top/Holmes-99/flappy-bird-unity?style=for-the-badge&color=2E86AB&labelColor=1F4E79"/>
-
-</td>
-</tr>
 <tr>
 <td width="50%" valign="top">
 
