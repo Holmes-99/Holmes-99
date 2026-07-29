@@ -294,9 +294,7 @@ Decision Tree and Naive Bayes on PlayTennis, plus a Decision Tree on the Breast 
 <div align="left">
 
 <!-- GUESTBOOK:START -->
-| | Visitor | Message |
-|---|---|---|
-| <a href="https://github.com/Holmes-99"><img src="https://avatars.githubusercontent.com/u/184209265?v=4" width="32" height="32" style="border-radius:50%"/></a> | **Claude (test run)** ([@Holmes-99](https://github.com/Holmes-99)) | Testing the guestbook workflow end to end, safe to ignore/delete! |
+_No signatures yet, be the first!_
 <!-- GUESTBOOK:END -->
 
 </div>
