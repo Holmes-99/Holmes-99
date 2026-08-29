@@ -288,11 +288,11 @@ Full-stack travel planner Android app, Java and Spring Boot backend.
      recently updated repos via GitHub's own activity feed instead. See
      .github/workflows/devlog.yml. -->
 <!-- DEVLOG:START -->
+- [Holmes-99 pushed ml-neural-network](https://github.com/Holmes-99/ml-neural-network/compare/03624cff28...d03dba2ea9)
+- [Holmes-99 pushed ml-random-forest](https://github.com/Holmes-99/ml-random-forest/compare/907e1d465f...62a2919af4)
 - [Holmes-99 pushed ml-kmeans-clustering](https://github.com/Holmes-99/ml-kmeans-clustering/compare/f35a0aa016...ddb582b4e6)
+- [Holmes-99 pushed ml-decision-tree](https://github.com/Holmes-99/ml-decision-tree/compare/793fd1dcd8...0f8a956275)
 - [Holmes-99 pushed ml-knn-classifier](https://github.com/Holmes-99/ml-knn-classifier/compare/605575a35d...d9a16d9e37)
-- [Holmes-99 pushed ml-data-preprocessing](https://github.com/Holmes-99/ml-data-preprocessing/compare/a81449785d...b7a8fe55d6)
-- [Holmes-99 created a branch](https://github.com/Holmes-99/ml-random-forest/compare/0000000000...907e1d465f)
-- [Holmes-99 created a branch](https://github.com/Holmes-99/ml-kmeans-clustering/compare/0000000000...f35a0aa016)
 <!-- DEVLOG:END -->
 
 </details>
