@@ -290,9 +290,6 @@ Full-stack travel planner Android app, Java and Spring Boot backend.
 <!-- DEVLOG:START -->
 - [Holmes-99 starred Holmes-99/SecureVault](https://github.com/Holmes-99/SecureVault)
 - [Holmes-99 starred microsoft/TRELLIS.2](https://github.com/microsoft/TRELLIS.2)
-- [Holmes-99 pushed SecureVault](https://github.com/Holmes-99/SecureVault/compare/509b583106...64a997b2d6)
-- [Holmes-99 pushed maze-solver-micromouse](https://github.com/Holmes-99/maze-solver-micromouse/compare/d90e82ede6...19eaabcb2c)
-- [Holmes-99 pushed maze-solver-micromouse](https://github.com/Holmes-99/maze-solver-micromouse/compare/89698f7367...1e0de3c0b1)
 <!-- DEVLOG:END -->
 
 </details>
