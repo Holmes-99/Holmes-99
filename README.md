@@ -9,7 +9,8 @@
 </td>
 <td valign="middle">
 <sub><code>PLAYER 1 · HOLMES-99</code></sub>
-<h1>Shatha Abualrob · شذى أبو الرب</h1>
+<h1>Shatha Abualrob</h1>
+<sub>شذى أبو الرب</sub><br/><br/>
 <b>Backend Intern at ASAL Technologies · Aspiring Game Developer</b><br/>
 <sub>4th-year Computer Engineering student at Birzeit University, Palestine 🇵🇸</sub>
 <br/><br/>
