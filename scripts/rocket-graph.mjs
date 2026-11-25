@@ -231,28 +231,55 @@ function buildSvg(calendar, paletteName) {
     </circle>`;
   }
 
-  // --- rocket sprite (simple pixel-art built from rects) ------------------
-  // 8x8 pixel grid, 2px/pixel. Swap assets/sprites/rocket.png in for a real
-  // Aseprite sprite later (see scripts/README.md for how to wire it in).
+  // --- rocket sprite: side-view pixel rocket, nose pointing along +x -------
+  // Drawn from a character grid so it is easy to redraw. animateMotion with
+  // rotate="auto" turns it to face the direction of travel; the sprite is
+  // mirror-symmetric top/bottom, so flying right-to-left still looks right.
+  const ROCKET = [
+    "..FFF...........",
+    "...FFBBBBBBBB...",
+    "..AABBBWWBBBBNN.",
+    ".AAABBWWWWBBBNNN",
+    ".AAABBWWWWBBBNNN",
+    "..AABBBWWBBBBNN.",
+    "...FFBBBBBBBB...",
+    "..FFF...........",
+  ];
+  const P = 1.4; // size of one rocket pixel in SVG units
+  const ROCKET_COLORS = {
+    B: palette.rocketBody,
+    A: palette.rocketAccent,
+    F: palette.rocketAccent,
+    N: palette.flame,
+    W: "#58a6ff",
+  };
+  const rw = ROCKET[0].length * P;
+  const rh = ROCKET.length * P;
+  let rocketPixels = "";
+  ROCKET.forEach((row, y) => {
+    [...row].forEach((ch, x) => {
+      if (ch === ".") return;
+      rocketPixels += `<rect x="${(x * P).toFixed(1)}" y="${(y * P).toFixed(1)}" width="${P}" height="${P}" fill="${ROCKET_COLORS[ch]}"/>`;
+    });
+  });
+  const flameY = 3 * P;
   const rocketSprite = `
   <g id="rocket-sprite">
-    <g transform="translate(-8,-8)">
-      <rect x="6" y="0" width="4" height="2" fill="${palette.rocketAccent}"/>
-      <rect x="4" y="2" width="8" height="2" fill="${palette.rocketBody}"/>
-      <rect x="4" y="4" width="8" height="4" fill="${palette.rocketBody}"/>
-      <rect x="2" y="6" width="2" height="4" fill="${palette.rocketAccent}"/>
-      <rect x="12" y="6" width="2" height="4" fill="${palette.rocketAccent}"/>
-      <rect x="6" y="8" width="4" height="2" fill="#2b2f36"/>
-      <rect x="6" y="10" width="4" height="3" fill="${palette.flame}">
-        <animate attributeName="height" values="3;5;3" dur="0.22s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="1;0.6;1" dur="0.22s" repeatCount="indefinite"/>
+    <g transform="translate(${(-rw / 2).toFixed(1)},${(-rh / 2).toFixed(1)})">
+      <rect x="${(-3 * P).toFixed(1)}" y="${flameY.toFixed(1)}" width="${(3 * P).toFixed(1)}" height="${(2 * P).toFixed(1)}" fill="${palette.flame}">
+        <animate attributeName="x" values="${(-3 * P).toFixed(1)};${(-5 * P).toFixed(1)};${(-3 * P).toFixed(1)}" dur="0.2s" repeatCount="indefinite"/>
+        <animate attributeName="width" values="${(3 * P).toFixed(1)};${(5 * P).toFixed(1)};${(3 * P).toFixed(1)}" dur="0.2s" repeatCount="indefinite"/>
       </rect>
+      <rect x="${(-1.5 * P).toFixed(1)}" y="${flameY.toFixed(1)}" width="${(1.5 * P).toFixed(1)}" height="${(2 * P).toFixed(1)}" fill="${palette.bullet}">
+        <animate attributeName="opacity" values="1;0.5;1" dur="0.2s" repeatCount="indefinite"/>
+      </rect>
+      ${rocketPixels}
     </g>
   </g>`;
 
   const rocketMotion = `
   <use href="#rocket-sprite">
-    <animateMotion dur="${TOTAL}s" begin="0s" repeatCount="indefinite" rotate="0" path="${pathD.trim()}"/>
+    <animateMotion dur="${TOTAL}s" begin="0s" repeatCount="indefinite" rotate="auto" path="${pathD.trim()}"/>
   </use>`;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" font-family="'Segoe UI', Ubuntu, Sans-Serif">
@@ -261,7 +288,7 @@ function buildSvg(calendar, paletteName) {
   ${backdropSvg}
   ${cellsSvg}
   ${bulletsSvg}
-  ${rocketSprite}
+  <defs>${rocketSprite}</defs>
   ${rocketMotion}
 </svg>`;
 }
