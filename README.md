@@ -1,272 +1,221 @@
+<!-- Based on the free "Everything Hub" template from GitSkins (https://www.gitskins.com/templates).
+     The gitskins.com/api/section images are live: they redraw from public GitHub data. -->
+
 <!-- SECTION: header -->
-<div align="center">
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/hero?username=holmes-99&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F184209265%3Fu%3D753300a7803392ccc996fd4c28c7a334e5dc3780%26v%3D4" alt="Shatha Abualrob, hero card" />
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F4E79,100:2E86AB&height=200&section=header&text=Shatha%20Abualrob&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%D8%B4%D8%B0%D9%89%20%D8%A3%D8%A8%D9%88%20%D8%A7%D9%84%D8%B1%D8%A8&descAlignY=60&descSize=20&descColor=ffffff"/>
+<p align="center"><b>Shatha Abualrob</b> · شذى أبو الرب<br/><b>Backend Intern at ASAL Technologies</b> · Aspiring Game Developer<br/><sub>4th-year Computer Engineering student at Birzeit University, Palestine 🇵🇸</sub></p>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=2E86AB&center=true&vCenter=true&width=650&lines=Computer+Engineering+Student+%F0%9F%8E%93;Unity+Game+Developer+%F0%9F%8E%AE;Backend+%26+Systems+Developer+%F0%9F%92%BB;AI+%2F+Machine+Learning+Enthusiast+%F0%9F%A4%96;Based+in+Palestine+%F0%9F%87%B5%F0%9F%87%B8)](https://git.io/typing-svg)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-1F4E79?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shatha-abualrub-632a05331)
-[![Gmail](https://img.shields.io/badge/Gmail-2E86AB?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abualrubshatha1@gmail.com)
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1F4E79,100:2E86AB&height=4&section=header"/>
-
-<!-- SECTION: arcade-menu -->
-<a href="#projects"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/buttons/nav-projects.svg" alt="Projects" height="40"/></a>&nbsp;
-<a href="#skills"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/buttons/nav-skills.svg" alt="Skills" height="40"/></a>&nbsp;
-<a href="#stats"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/buttons/nav-stats.svg" alt="Stats" height="40"/></a>&nbsp;
-<a href="#contact"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/buttons/nav-contact.svg" alt="Contact" height="40"/></a>&nbsp;
-<a href="https://holmes-99.itch.io" target="_blank"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/buttons/nav-play.svg" alt="Play my games on itch.io" height="40"/></a>
-<!-- /SECTION: arcade-menu -->
-
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB%20About%20Me&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
-
-</div>
+<p align="center">
+  <a href="https://shatha-abualrob.netlify.app">Portfolio</a> ·
+  <a href="https://holmes-99.itch.io">itch.io</a> ·
+  <a href="https://www.roblox.com/games/109448329924596">Roblox</a> ·
+  <a href="https://linkedin.com/in/shatha-abualrub-632a05331">LinkedIn</a> ·
+  <a href="mailto:abualrubshatha1@gmail.com">Email</a>
+</p>
 <!-- /SECTION: header -->
 
 <!-- SECTION: about -->
-Computer Engineering student at **Birzeit University**, Palestine 🇵🇸, graduating in 2027.
-I build 2D games in **Unity & C#** and low level systems in **C, Java, and Python**, from raw socket servers to a pipelined RISC processor in Verilog.
-Currently learning **Blender 3D**, **Linux and shell scripting**, and **Luau / Roblox Studio**, alongside AI search and classification algorithms.
-Aspiring to work at a game studio while staying sharp on backend and systems fundamentals.
+<details open>
+<summary><b>👩‍💻 About me</b></summary>
+<br/>
+
+I'm a 4th-year Computer Engineering student at **Birzeit University** and a backend intern at **ASAL Technologies** in Rawabi.
+I make games, from 2D platformers in **Unity & C#** to a full Roblox game in **Luau**, and I like low-level work just as much: raw socket servers, a pipelined RISC processor in Verilog, an ESP32 maze-solving robot, and cryptography written from scratch.
+
+- 💼 Backend intern at **ASAL Technologies**, Rawabi
+- 🤖 In the **FlyRank ML internship**, working on search ranking with real search data
+- 🧪 Built and released **Grow a Brainrot**, a creature-collecting game on Roblox
+- 🩻 Built a free, offline **DICOM viewer** that doctors I know use day to day
+- 🌱 Currently learning **Blender** and going deeper into **Luau**
+
+</details>
 <!-- /SECTION: about -->
 
 <!-- SECTION: featured-builds -->
 <a name="projects"></a>
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%8E%AE%20Featured%20Builds&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
-
-<sub>Two shipped games plus the AI project I'm proudest of. Preview GIFs are TODO, see <a href="scripts/README.md">scripts/README.md</a> and TODO.md for the exact filenames that auto-replace these stills.</sub>
-
-</div>
+<details open>
+<summary><b>📌 Featured builds</b></summary>
+<br/>
 
 <table>
 <tr>
-<td width="33%" valign="top" align="center">
-
-<a href="https://holmes-99.itch.io/frog-hop-fly-hunt"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/previews/frog-hop.gif" width="100%" alt="Frog Hop: Fly Hunt gameplay"/></a>
-<br>
-<b><a href="https://holmes-99.itch.io/frog-hop-fly-hunt">Frog Hop: Fly Hunt</a></b>
-<br>
-A 2D swamp platformer, hop, dodge water, and hunt flies. Playable in-browser on <a href="https://holmes-99.itch.io/frog-hop-fly-hunt">itch.io</a> or <a href="https://play.unity.com/en/games/610a6dd7-6f69-4673-bbf6-d52e4a2927a1/webglbuild">Unity Play</a>.
-<br><br>
-<img src="https://skillicons.dev/icons?i=unity" height="28"/> <img src="https://skillicons.dev/icons?i=cs" height="28"/>
-
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Holmes-99/GrowABrainrot"><img src="https://raw.githubusercontent.com/Holmes-99/GrowABrainrot/main/screenshots/world.jpg" height="220" alt="Grow a Brainrot world"/></a>
+<br/><b>🧪 <a href="https://github.com/Holmes-99/GrowABrainrot">Grow a Brainrot</a></b> · <a href="https://www.roblox.com/games/109448329924596">play on Roblox</a>
+<br/><sub>A creature-collecting Roblox game in Luau: brew potions, grow creatures from mixed-up body parts, battle in the Colosseum, bet and trade.</sub>
 </td>
-<td width="33%" valign="top" align="center">
-
-<a href="https://github.com/Holmes-99/flappy-bird-unity"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/previews/flappy-bird.gif" width="100%" alt="Flappy Bird clone gameplay"/></a>
-<br>
-<b><a href="https://github.com/Holmes-99/flappy-bird-unity">Flappy Bird Clone</a></b>
-<br>
-Pixel art duck, procedural pipes, sound effects. Source on GitHub (not yet published to itch.io).
-<br><br>
-<img src="https://skillicons.dev/icons?i=unity" height="28"/> <img src="https://skillicons.dev/icons?i=cs" height="28"/>
-
+<td width="50%" valign="top" align="center">
+<a href="https://junior-astronaut-sheclipse.netlify.app/junior-astronaut/"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/previews/junior-astronaut.jpg" height="220" alt="Junior Astronaut title screen"/></a>
+<br/><b>🧑‍🚀 <a href="https://github.com/Holmes-99/lunar-night-shift">Junior Astronaut</a></b> · <a href="https://junior-astronaut-sheclipse.netlify.app/junior-astronaut/">play in browser</a>
+<br/><sub>A 3D educational game in Three.js that trains kids 7 to 12 to think like astronauts, using real NASA data. Team SHEclipse, NASA Space Apps Challenge 2026.</sub>
 </td>
-<td width="33%" valign="top" align="center">
-
-<a href="https://github.com/Holmes-99/hospital-location-optimizer"><img src="https://raw.githubusercontent.com/Holmes-99/hospital-location-optimizer/main/images/solutions_comparison.png" width="100%" alt="Hospital location optimizer solution comparison plot"/></a>
-<br>
-<b><a href="https://github.com/Holmes-99/hospital-location-optimizer">Hospital Location Optimizer</a></b>
-<br>
-Hill Climbing and Simulated Annealing search for optimal public health facility placement.
-<br><br>
-<img src="https://skillicons.dev/icons?i=python" height="28"/> <img src="https://img.shields.io/badge/AI-1F4E79?style=for-the-badge" height="28"/>
-
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Holmes-99/maze-solver-micromouse"><img src="https://raw.githubusercontent.com/Holmes-99/maze-solver-micromouse/main/media/speedrun.gif" height="220" alt="Toots the micromouse doing a speed run"/></a>
+<br/><b>🐭 <a href="https://github.com/Holmes-99/maze-solver-micromouse">Toots, Micromouse Robot</a></b> · team project
+<br/><sub>An ESP32 robot that maps an 8×8 maze and races the shortest path: floodfill, PID motor control and time-of-flight sensors.</sub>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Holmes-99/SecureVault"><img src="https://raw.githubusercontent.com/Holmes-99/SecureVault/main/docs/images/gui.png" height="220" alt="SecureVault app"/></a>
+<br/><b>🔐 <a href="https://github.com/Holmes-99/SecureVault">SecureVault</a></b>
+<br/><sub>End-to-end encrypted file sharing over an untrusted server. AES-256-GCM, X25519, Ed25519 and HKDF from scratch, with a live MITM attack demo.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://holmes-99.itch.io/frog-hop-fly-hunt"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/previews/frog-hop.gif" height="220" alt="Frog Hop: Fly Hunt gameplay"/></a>
+<br/><b>🐸 <a href="https://github.com/Holmes-99/FrogHopFlyHunt">Frog Hop: Fly Hunt</a></b> · <a href="https://holmes-99.itch.io/frog-hop-fly-hunt">play on itch.io</a>
+<br/><sub>A 2D swamp platformer in Unity 6: hop, dodge water and hunt flies.</sub>
+</td>
+<td width="50%" valign="top" align="center">
+<br/><b>🩻 <a href="https://github.com/Holmes-99/dicom-viewer">DICOM Viewer</a></b>
+<br/><sub>A free, offline desktop viewer for CT, MR, X-ray, ultrasound and PET images. I built it for my father and brother, and now they and their colleagues use it.</sub>
+<br/><br/>
+<b>🏥 <a href="https://github.com/Holmes-99/hospital-location-optimizer">Hospital Location Optimizer</a></b>
+<br/><sub>Hill Climbing and Simulated Annealing to place public health facilities.</sub>
 </td>
 </tr>
 </table>
+
+</details>
 <!-- /SECTION: featured-builds -->
+
+<!-- SECTION: more-projects -->
+<details>
+<summary><b>🗂️ More projects</b></summary>
+<br/>
+
+**Machine learning**
+- [FlyRank ML internship](https://github.com/Holmes-99/flyrank-ml-internship): search ranking and discoverability on anonymized real search data
+- [Neural network](https://github.com/Holmes-99/ml-neural-network) · [Random forest](https://github.com/Holmes-99/ml-random-forest) · [K-Means](https://github.com/Holmes-99/ml-kmeans-clustering) · [Decision tree](https://github.com/Holmes-99/ml-decision-tree) · [KNN](https://github.com/Holmes-99/ml-knn-classifier) · [Data preprocessing](https://github.com/Holmes-99/ml-data-preprocessing)
+- [PlayTennis + Breast Cancer classification](https://github.com/Holmes-99/ml-classification-playtennis-cancer): Decision Tree and Naive Bayes
+
+**Systems, networking and hardware**
+- [Pipelined RISC processor](https://github.com/Holmes-99/pipelined-risc-processor-verilog): 5-stage, 32-bit, predicated, in Verilog
+- [32-bit RISC processor in Logisim](https://github.com/Holmes-99/32bit-risc-processor-logisim): single-cycle, custom ISA
+- [Multiplayer quiz game](https://github.com/Holmes-99/multiplayer-quiz-game-python): raw TCP + UDP, no libraries
+- [HTTP web server](https://github.com/Holmes-99/http-webserver-python): raw sockets, bilingual Arabic/English pages
+- [Palestine road network MST](https://github.com/Holmes-99/palestine-road-network-mst-c): Kruskal vs Prim in C
+
+**Apps**
+- [HealthPlus](https://github.com/Holmes-99/HealthPlus): JavaFX warehouse system for a pharma distributor, 15 entities, role-based login
+- [Travel Planner](https://github.com/Holmes-99/travel-planner-android-app): Android app with a Spring Boot + MySQL backend
+
+</details>
+<!-- /SECTION: more-projects -->
 
 <!-- SECTION: skills -->
 <a name="skills"></a>
-<div align="center">
+<details open>
+<summary><b>🧰 Stack</b></summary>
+<br/>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%A7%A0%20Skills&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/stack?username=holmes-99&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F184209265%3Fu%3D753300a7803392ccc996fd4c28c7a334e5dc3780%26v%3D4" alt="Languages card" />
+</p>
 
-<br>
-
-<sub>**Languages**</sub>
-<br>
-<a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="https://skillicons.dev/icons?i=c" height="42"/></a>&nbsp;
-<a href="https://learn.microsoft.com/en-us/dotnet/csharp/"><img src="https://skillicons.dev/icons?i=cs" height="42"/></a>&nbsp;
-<a href="https://www.java.com"><img src="https://skillicons.dev/icons?i=java" height="42"/></a>&nbsp;
-<a href="https://www.python.org"><img src="https://skillicons.dev/icons?i=python" height="42"/></a>&nbsp;
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" height="42"/></a>&nbsp;
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" height="42"/></a>&nbsp;
-<a href="https://www.chipverify.com/verilog/verilog-tutorial"><img src="https://img.shields.io/badge/Verilog-4B275F?style=for-the-badge&logoColor=white" height="26"/></a>
-
-<br><br>
-
-<sub>**Game Dev**</sub>
-<br>
-<a href="https://unity.com"><img src="https://skillicons.dev/icons?i=unity" height="42"/></a>
-
-<br><br>
-
-<sub>**Tools & Platforms**</sub>
-<br>
-<a href="https://www.mysql.com"><img src="https://skillicons.dev/icons?i=mysql" height="42"/></a>&nbsp;
-<a href="https://git-scm.com"><img src="https://skillicons.dev/icons?i=git" height="42"/></a>&nbsp;
-<a href="https://www.arduino.cc"><img src="https://skillicons.dev/icons?i=arduino" height="42"/></a>&nbsp;
-<a href="https://code.visualstudio.com"><img src="https://skillicons.dev/icons?i=vscode" height="42"/></a>&nbsp;
-<a href="https://developer.android.com/studio"><img src="https://skillicons.dev/icons?i=androidstudio" height="42"/></a>&nbsp;
-<a href="https://spring.io"><img src="https://skillicons.dev/icons?i=spring" height="42"/></a>
-
-</div>
-<!-- /SECTION: skills -->
-
-<!-- SECTION: contact -->
-<a name="contact"></a>
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%93%AC%20Contact&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
-
-<br>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-1F4E79?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shatha-abualrub-632a05331)
-[![Gmail](https://img.shields.io/badge/Gmail-2E86AB?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abualrubshatha1@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-1F4E79?style=for-the-badge&logo=firefox&logoColor=white)](https://shatha-abualrob.netlify.app)
-[![itch.io](https://img.shields.io/badge/itch.io-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white)](https://holmes-99.itch.io)
-
-</div>
-<!-- /SECTION: contact -->
-
-<!-- SECTION: featured-projects -->
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%9A%80%20Featured%20Projects&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
-
-<sub>Games and the AI hospital project have their own <a href="#projects">Featured Builds</a> above; these are the rest of the systems, networking, and mobile projects.</sub>
-
-</div>
-
-<table>
+<table align="center">
 <tr>
-<td width="50%" valign="top">
-
-<img src="https://skillicons.dev/icons?i=python" height="22"/> **[Multiplayer Quiz Game](https://github.com/Holmes-99/multiplayer-quiz-game-python)**
-<br>
-Networked quiz game using raw TCP for registration and results, UDP for real time answers, no external libraries.
-<br><br>
-<img src="https://img.shields.io/badge/Networking-1F4E79?style=for-the-badge"/> <img src="https://img.shields.io/github/languages/top/Holmes-99/multiplayer-quiz-game-python?style=for-the-badge&color=2E86AB&labelColor=1F4E79"/>
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://skillicons.dev/icons?i=python" height="22"/> **[HTTP Web Server](https://github.com/Holmes-99/http-webserver-python)**
-<br>
-Raw socket HTTP server serving bilingual Arabic/English pages with 200, 403, and 404 handling, no frameworks.
-<br><br>
-<img src="https://img.shields.io/badge/Networking-1F4E79?style=for-the-badge"/> <img src="https://img.shields.io/github/languages/top/Holmes-99/http-webserver-python?style=for-the-badge&color=2E86AB&labelColor=1F4E79"/>
-
+<td align="right"><sub><b>Languages</b></sub></td>
+<td>
+<img src="https://skillicons.dev/icons?i=c,cpp,cs,java,py,js,html,css" height="36" alt="C, C++, C#, Java, Python, JavaScript, HTML, CSS"/>
+<img src="https://img.shields.io/badge/Luau-00A2FF?style=flat-square&logo=roblox&logoColor=white" height="22" alt="Luau"/>
+<img src="https://img.shields.io/badge/Verilog-4B275F?style=flat-square" height="22" alt="Verilog"/>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" height="22" alt="SQL"/>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-<img src="https://skillicons.dev/icons?i=c" height="22"/> **[Palestine Road Network MST](https://github.com/Holmes-99/palestine-road-network-mst-c)**
-<br>
-Minimum Spanning Tree over Palestinian cities using Kruskal's and Prim's algorithms, comparing cost and execution time on a real road network.
-<br><br>
-<img src="https://img.shields.io/badge/Algorithms-1F4E79?style=for-the-badge"/> <img src="https://img.shields.io/github/languages/top/Holmes-99/palestine-road-network-mst-c?style=for-the-badge&color=2E86AB&labelColor=1F4E79"/>
-
-</td>
-<td width="50%" valign="top">
-
-**[Pipelined RISC Processor](https://github.com/Holmes-99/pipelined-risc-processor-verilog)**
-<br>
-5 stage pipelined 32-bit predicated RISC processor in Verilog, datapath, control path, hazard handling, and testbench verification.
-<br><br>
-<img src="https://img.shields.io/badge/Hardware-1F4E79?style=for-the-badge"/> <img src="https://img.shields.io/github/languages/top/Holmes-99/pipelined-risc-processor-verilog?style=for-the-badge&color=2E86AB&labelColor=1F4E79"/>
-
+<td align="right"><sub><b>Games & 3D</b></sub></td>
+<td>
+<img src="https://skillicons.dev/icons?i=unity,blender,threejs" height="36" alt="Unity, Blender, Three.js"/>
+<img src="https://img.shields.io/badge/Roblox%20Studio-000000?style=flat-square&logo=roblox&logoColor=white" height="22" alt="Roblox Studio"/>
+<img src="https://img.shields.io/badge/Rojo-E13835?style=flat-square" height="22" alt="Rojo"/>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-<img src="https://skillicons.dev/icons?i=python" height="22"/> **[ML Classification: PlayTennis + Cancer](https://github.com/Holmes-99/ml-classification-playtennis-cancer)**
-<br>
-Decision Tree and Naive Bayes on PlayTennis, plus a Decision Tree on the Breast Cancer Wisconsin dataset.
-<br><br>
-<img src="https://img.shields.io/badge/Machine%20Learning-1F4E79?style=for-the-badge"/> <img src="https://img.shields.io/github/languages/top/Holmes-99/ml-classification-playtennis-cancer?style=for-the-badge&color=2E86AB&labelColor=1F4E79"/>
-
+<td align="right"><sub><b>Backend & apps</b></sub></td>
+<td>
+<img src="https://skillicons.dev/icons?i=spring,mysql,react,vite,androidstudio" height="36" alt="Spring Boot, MySQL, React, Vite, Android Studio"/>
+<img src="https://img.shields.io/badge/JavaFX-007396?style=flat-square&logo=openjdk&logoColor=white" height="22" alt="JavaFX"/>
 </td>
-<td width="50%" valign="top">
-
-<img src="https://skillicons.dev/icons?i=java" height="22"/> **[Travel Planner Android App](https://github.com/Holmes-99/travel-planner-android-app)**
-<br>
-Full-stack travel planner Android app, Java and Spring Boot backend.
-<br><br>
-<img src="https://img.shields.io/badge/Android-1F4E79?style=for-the-badge"/> <img src="https://img.shields.io/github/languages/top/Holmes-99/travel-planner-android-app?style=for-the-badge&color=2E86AB&labelColor=1F4E79"/>
-
+</tr>
+<tr>
+<td align="right"><sub><b>ML & data</b></sub></td>
+<td>
+<img src="https://skillicons.dev/icons?i=sklearn" height="36" alt="scikit-learn"/>
+<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" height="22" alt="pandas"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" height="22" alt="NumPy"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square" height="22" alt="Matplotlib"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" height="22" alt="Jupyter"/>
+</td>
+</tr>
+<tr>
+<td align="right"><sub><b>Hardware</b></sub></td>
+<td>
+<img src="https://skillicons.dev/icons?i=arduino" height="36" alt="Arduino"/>
+<img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" height="22" alt="ESP32"/>
+<img src="https://img.shields.io/badge/Logisim-555555?style=flat-square" height="22" alt="Logisim"/>
+<img src="https://img.shields.io/badge/Quartus-0071C5?style=flat-square&logo=intel&logoColor=white" height="22" alt="Quartus"/>
+</td>
+</tr>
+<tr>
+<td align="right"><sub><b>Tools</b></sub></td>
+<td>
+<img src="https://skillicons.dev/icons?i=git,github,linux,vscode" height="36" alt="Git, GitHub, Linux, VS Code"/>
 </td>
 </tr>
 </table>
-<!-- /SECTION: featured-projects -->
-
-<!-- SECTION: coursework -->
-<details>
-<summary><b>🎓 Coursework & What I'm Learning</b></summary>
-<br>
-
-- 🎮 **Unity 6 game development**, physics, animation, and gameplay systems for 2D platformers
-- 🧊 **Blender 3D**, modeling basics for future game asset pipelines
-- 🐧 **Linux and shell scripting**, command line workflows and automation
-- 🧩 **Luau / Roblox Studio**, scripting fundamentals for Roblox experiences
-- 🤖 **Artificial Intelligence**, search (hill climbing, simulated annealing), decision trees, Naive Bayes
-- 📱 **Android development**, Java + Spring Boot backed mobile apps
-- 🔌 **Embedded systems & Arduino**, sensors, microcontroller programming
-- 🗄️ **Database systems**, full CRUD desktop apps with role based access
-- ⚙️ **Computer architecture**, RISC processor design in Verilog and Logisim
 
 </details>
-<!-- /SECTION: coursework -->
+<!-- /SECTION: skills -->
 
 <!-- SECTION: github-stats -->
 <a name="stats"></a>
 <details>
-<summary><b>📊 GitHub Stats</b></summary>
-<br>
+<summary><b>📊 By the numbers</b></summary>
+<br/>
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Holmes-99&bg_color=0d1117&color=2E86AB&line=2E86AB&point=1F4E79&area=true&hide_border=true" width="100%"/>
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Holmes-99&theme=tokyonight&hide_border=true)
-
-![Followers](https://img.shields.io/github/followers/Holmes-99?style=for-the-badge&color=2E86AB&labelColor=1F4E79&label=Followers)
-
-</div>
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/stats?username=holmes-99&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F184209265%3Fu%3D753300a7803392ccc996fd4c28c7a334e5dc3780%26v%3D4" alt="GitHub stats card" />
+</p>
 
 </details>
 <!-- /SECTION: github-stats -->
 
-<!-- SECTION: terminal-card -->
+<!-- SECTION: activity -->
 <details>
-<summary><b>🖥️ Terminal Info Card</b></summary>
-<br>
+<summary><b>🟩 Activity</b></summary>
+<br/>
 
-<div align="center">
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/heatmap?username=holmes-99&theme=neon" alt="Contribution heatmap" />
+</p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/terminal-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/terminal-light.svg" />
-  <img alt="neofetch style terminal info card" src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/terminal-dark.svg" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/github-contribution-grid-snake.svg" width="100%"/>
 </picture>
 
-</div>
+**Recent activity**
+
+<!-- DEVLOG:START -->
+- [Holmes-99 pushed dicom-viewer](https://github.com/Holmes-99/dicom-viewer/compare/f71a3ab792...37a3a176cc)
+- [Holmes-99 made this repository public](https://github.com/Holmes-99/dicom-viewer)
+- [Holmes-99 pushed lunar-night-shift](https://github.com/Holmes-99/lunar-night-shift/compare/6044584439...c192bf39da)
+<!-- DEVLOG:END -->
 
 </details>
-<!-- /SECTION: terminal-card -->
+<!-- /SECTION: activity -->
 
-<!-- SECTION: rpg-sheet -->
+<!-- SECTION: extras -->
 <details>
-<summary><b>🗡️ RPG Character Sheet</b></summary>
-<br>
-
-<div align="center">
+<summary><b>🕹️ Extras: RPG sheet, rocket graph, 3D city</b></summary>
+<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/rpg-sheet-dark.svg" />
@@ -274,95 +223,49 @@ Full-stack travel planner Android app, Java and Spring Boot backend.
   <img alt="RPG character sheet built from real GitHub stats" src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/rpg-sheet-dark.svg" width="100%"/>
 </picture>
 
-</div>
-
-</details>
-<!-- /SECTION: rpg-sheet -->
-
-<!-- SECTION: devlog -->
-<details>
-<summary><b>📰 Recent Activity</b></summary>
-<br>
-
-<!-- itch.io has no devlog RSS feed for this account yet, so this lists
-     recently updated repos via GitHub's own activity feed instead. See
-     .github/workflows/devlog.yml. -->
-<!-- DEVLOG:START -->
-- [Holmes-99 pushed dicom-viewer](https://github.com/Holmes-99/dicom-viewer/compare/f71a3ab792...37a3a176cc)
-- [Holmes-99 made this repository public](https://github.com/Holmes-99/dicom-viewer)
-- [Holmes-99 pushed lunar-night-shift](https://github.com/Holmes-99/lunar-night-shift/compare/6044584439...c192bf39da)
-- [Holmes-99 pushed lunar-night-shift](https://github.com/Holmes-99/lunar-night-shift/compare/9865a639a6...8d5bb1537d)
-- [Holmes-99 pushed lunar-night-shift](https://github.com/Holmes-99/lunar-night-shift/compare/24ad0993a9...8c52ab47e5)
-<!-- DEVLOG:END -->
-
-</details>
-
-<!-- SECTION: snake -->
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%90%8D%20Contribution%20Snake&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/github-contribution-grid-snake.svg" width="100%"/>
-</picture>
-
-</div>
-<!-- /SECTION: snake -->
-
-<!-- SECTION: rocket-graph -->
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%9A%80%20Rocket%20Contribution%20Graph&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/rocket-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/rocket-light.svg" />
-  <img alt="pixel rocket flying across and destroying the contribution graph" src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/rocket-dark.svg" width="100%"/>
+  <img alt="Pixel rocket flying across the contribution graph" src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/rocket-dark.svg" width="100%"/>
 </picture>
 
-</div>
-<!-- /SECTION: rocket-graph -->
-
-<!-- SECTION: 3d-contrib -->
-<div align="center">
-
-<details>
-<summary><b>🏙️ 3D Contribution City</b></summary>
-<br>
-
-<img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/3d-contrib.svg" width="100%" alt="3D isometric view of contribution graph"/>
+<img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/output/3d-contrib.svg" width="100%" alt="3D isometric contribution city"/>
 
 </details>
-
-</div>
-<!-- /SECTION: 3d-contrib -->
+<!-- /SECTION: extras -->
 
 <!-- SECTION: guestbook -->
-<div align="center">
+<details>
+<summary><b>📔 Guestbook</b></summary>
+<br/>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1F4E79,100:2E86AB&height=65&section=header&text=%F0%9F%93%94%20Guestbook&fontSize=24&fontColor=ffffff&fontAlignY=62"/>
-
-<a href="https://github.com/Holmes-99/Holmes-99/issues/new?template=guestbook.yml"><img src="https://raw.githubusercontent.com/Holmes-99/Holmes-99/main/assets/buttons/sign-guestbook.svg" alt="Sign the guestbook" height="44"/></a>
-
-<br><br>
-
-<div align="left">
+<a href="https://github.com/Holmes-99/Holmes-99/issues/new?template=guestbook.yml">Sign the guestbook</a>, your note shows up here.
 
 <!-- GUESTBOOK:START -->
 _No signatures yet, be the first!_
 <!-- GUESTBOOK:END -->
 
-</div>
-
-</div>
+</details>
 <!-- /SECTION: guestbook -->
 
-<!-- SECTION: footer -->
-<div align="center">
+<!-- SECTION: contact -->
+<a name="contact"></a>
+<details>
+<summary><b>👋 Say hello</b></summary>
+<br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E86AB,100:1F4E79&height=100&section=footer"/>
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/social?username=holmes-99&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F184209265%3Fu%3D753300a7803392ccc996fd4c28c7a334e5dc3780%26v%3D4" alt="Social links card" />
+</p>
 
-</div>
-<!-- /SECTION: footer -->
+<p align="center">
+  <a href="https://linkedin.com/in/shatha-abualrub-632a05331"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:abualrubshatha1@gmail.com"><img src="https://img.shields.io/badge/Email-2E86AB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://shatha-abualrob.netlify.app"><img src="https://img.shields.io/badge/Portfolio-1F4E79?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://holmes-99.itch.io"><img src="https://img.shields.io/badge/itch.io-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white" alt="itch.io"/></a>
+</p>
+
+</details>
+<!-- /SECTION: contact -->
+
+<p align="center"><sub>Shatha Abualrob · Everything Hub template from <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
